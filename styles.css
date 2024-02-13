@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../html-css/resources/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Gotham black";
+    font-size: 14px;
+    font-weight: 200;
+}
+
+nav{
+    position: fixed;
+    background-color: rgba(2, 5, 16, 0.9);
+    text-align: center;
+    height: 65px;
+    width: 100%;
+}
+nav ul{
+    display: inline-block;
+}  
+ul{
+    list-style: none;
+}
+
+nav ul li{
+    padding-top: 23.5px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+#logo{
+    padding-top: 0px;
+    position: center;
+}
+
+h2{
+    line-height: 36px;
+    font-size: 36px;
+}
+
+h3{
+    font-size: 18px;
+}
+
+p{
+    text-align: justify;
+}
+
+cite{
+    font-weight: 300;
+}
+
+section{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#HOME {
+    background-color: rgba(10, 18, 35, 0.8);
+    min-height: 160px;
+    padding-top: 80px;
+}
+
+.hashtag {
+    font-size: 14px;
+    color: rgb(255, 222, 0);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#social {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+i:hover {
+    color: #2e4877;
+}
+a:any-link {
+    text-decoration: none;
+    color: white;
+}
+
+a:-webkit-any(){
+    text-decoration: none;
+    color: white;
+}
+
+a:-moz-any-link {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    float : left;
+    margin-right: 15px;
+}
+
+#ABOUT {
+    background-color: rgba(241, 241, 241, 0.9);
+    color: #2e4877;
+}
+
+#PORTFOLIO {
+    background-color: rgba(10, 18, 35, 0.8);
+    color: white;
+}
+
+#EXPERIENCE {
+    background-color: rgba(241, 241, 241, 0.9);
+    color: #2e4877;
+
+}
+
+
+
+
