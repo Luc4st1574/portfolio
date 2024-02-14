@@ -14,34 +14,33 @@
         <!-- Navigation -->
         <nav>
             <ul>
-                <li class = "navOPTION">ABOUT ME</li>
-                <li class = "navOPTION">PORTFOLIO</li>
-                <li id="logo"><img src="resources/logo.png" alt="logo"></li>
-                <li class = "navOPTION">EXPERIENCE</li>
-                <li class = "navOPTION">CONTACT</li>
+                <li><a href="#ABOUT">ABOUT ME</a></li>
+                <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+                <li id="logo"><img src="resources/logo.png" alt="logo"></a></li>
+                <li><a href="#EXPERIENCE">EXPERIENCE</a></li>
+                <li><a href="">CONTACT</a></li>
             </ul>
         </nav>
         
         <article>
         <!-- Home -->
         <section id = "HOME">
-            
             <h2 class = "name">Lucas Santillan</h2>
             <h3 class="hashtag">#Systems Engineer</h3>
             <h3 class="hashtag">#Graphic Designer</h3>
             <h3 class="hashtag">#Sound Engineer</h3>
             <ul id="social">
                 <li><a href="https://www.youtube.com/channel/UCBFHVQoUZYyd2w5S18Nb3Lg" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/lucassantillana/"><i class="fa-brands fa-linkedin" target="_blank"></i></a></li>
-                <li><a href="https://www.instagram.com/lucast1574/"><i class="fa-brands fa-instagram" target="_blank"></i></a></li>
-                <li><a href="https://twitter.com/Lucast_1574"><i class="fa-brands fa-twitter" target="_blank"></i></a></li>
-                <li><a href="https://github.com/Luc4st1574"><i class="fa-brands fa-github" target="_blank"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/lucassantillana/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/lucast1574/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/Lucast_1574" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://github.com/Luc4st1574" target="_blank"><i class="fa-brands fa-github"></i></a></li>
             </ul>
         </section>
         <!-- About Me -->
         <section id = "ABOUT">
-            <h2 >About Me</h2>
             <img src="resources/PP.png" alt="ProfilePicture" class="PP">
+            <h2 >About Me</h2>
             <p>Hey there! I'm Lucas Santillan, a highly creative individual with a passion for both back end and front end development. 
                 I hold a degree in systems engineering and dabble in graphic design, but my interests don't stop there—I'm also deeply invested in sound engineering. 
                 Whether it's coding elegant solutions, crafting visually stunning designs, or fine-tuning audio experiences, I thrive on bringing ideas to life across 
@@ -52,25 +51,62 @@
         <section id = "PORTFOLIO">
             <h2>Portfolio</h2>
             <h3>A sneak peek far beyond the text</h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="4">Portfolio examples</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Front End</td>
-                        <td>Back End</td>
-                        <td>Graphic Design</td>
-                    </tr>
-                    <tr>
-                        <td>3D Design</td>
-                        <td>Film Making</td>
-                        <td>Sound engineering</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class = "portfoliorows">
+                <div class="card">
+                    <img src="resources/backend.png" alt="backend" id = "pimg">
+                    <h3>BACK END</h3>
+                    <div class = "moreinfo">
+                        <button type="button" id = "mi">
+                            MORE INFO
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="resources/FRONTEND.png" alt="FRONTEND" id = "pimg">
+                    <h3>FRONT END</h3>
+                    <div class = "moreinfo">
+                        <button type="button" id = "mi">
+                            MORE INFO
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="resources/3d.png" alt="3d" id = "pimg">
+                    <h3>3D</h3>
+                    <div class = "moreinfo">
+                        <button type="button" id = "mi">
+                            MORE INFO
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="resources/audio.png" alt="audio" id = "pimg">
+                    <h3>AUDIO</h3>
+                    <div class = "moreinfo">
+                        <button type="button" id = "mi">
+                            MORE INFO
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="resources/video.png" alt="video" id = "pimg">
+                    <h3>VIDEO</h3>
+                    <div class = "moreinfo">
+                        <button type="button" id = "mi">
+                            MORE INFO
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="resources/image.png" alt="image" id = "pimg">
+                    <h3>IMAGE</h3>
+                    <div class = "moreinfo">
+                        <button type="button" id = "mi">
+                            MORE INFO
+                        </button>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- EXPERIENCE -->
         <section id = "EXPERIENCE">
@@ -83,6 +119,9 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laboriosam iure, explicabo molestiae itaque harum? Rerum, fugit enim. Exercitationem in neque quaerat labore? Incidunt fuga atque esse veniam temporibus magnam!</p>
         </section>
         <!-- Contact -->
+        <section id = "CONTACT">
+
+        </section>
         </article>
         <!--Footer-->
         <footer></footer>

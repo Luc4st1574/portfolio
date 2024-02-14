@@ -13,6 +13,11 @@ body{
     font-weight: 200;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 nav{
     position: fixed;
     background-color: rgba(2, 5, 16, 0.9);
@@ -98,6 +103,10 @@ a:-moz-any-link {
     color: white;
 }
 
+a:hover{
+    color: #2e4877;
+}
+
 li {
     float : left;
     margin-right: 15px;
@@ -108,10 +117,88 @@ li {
     color: #2e4877;
 }
 
+.pp {
+    mix-blend-mode: linear-burn;
+    box-shadow: 0px 5px 32.66px 13.34px rgba(0, 0, 0, 0.17);
+    
+}
+
 #PORTFOLIO {
     background-color: rgba(10, 18, 35, 0.8);
     color: white;
+    
 }
+
+.portfoliorows {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: rgba(8, 42, 101, 0.8);
+    width: 138px;
+    height: 166px;
+    padding-top: 10px;
+}
+
+.card:hover {
+    background-color: rgb(8, 42, 101);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    mix-blend-mode: screen;
+}
+.card h3 {
+    margin-top: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*.otra forma de hacerlo
+card .moreinfo button{
+    width : 100px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    color: rgb(46, 72, 119);
+    font-size: 14px;
+    text-align: center;
+    font-family: "Gotham black";
+    margin-top: 10px;
+    margin-left: 20px;
+    box-shadow: 0px 5px 32.66px 13.34px rgba(0, 0, 0, 0.17);
+}*/
+
+#mi {
+    width : 100px;
+    height: 25px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    color: rgb(46, 72, 119);
+    font-size: 14px;
+    text-align: center;
+    font-family: "Gotham black";
+    margin-top: 5px;
+    margin-left: 20px;
+    box-shadow: 0px 5px 32.66px 13.34px rgba(0, 0, 0, 0.17);
+}
+
+#mi:hover {
+    background-color: rgb(46, 72, 119);
+    color: white;
+}
+
+
 
 #EXPERIENCE {
     background-color: rgba(241, 241, 241, 0.9);
